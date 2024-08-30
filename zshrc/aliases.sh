@@ -8,6 +8,7 @@ alias gcw="git add . && git commit -m 'wip'"
 alias gcm="git checkout master"
 alias gmm='git fetch origin master:master && GIT_MERGE_AUTOEDIT=no git merge master'
 alias gb="git for-each-ref --sort='-committerdate' --format='%(committerdate:short)%20%20%(refname:lstrip=2)' refs/heads | head -n 20"
+alias gc='git commit'
 
 alias sed='gsed'
 
